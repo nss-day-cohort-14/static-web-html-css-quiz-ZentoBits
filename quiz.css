@@ -1,7 +1,113 @@
+/************
+GENERAL
+************/
+
 body {
 	margin: 0;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	background-color: #eee;
 }
+
+h4 {
+	font-family: 'Dosis';
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Muli'; 
+}
+
+li {
+	font-family: 'Muli'; 
+}
+
+/************
+CARD GENERAL
+************/
+
+article {
+	width: 30%;
+	border: 1px solid lightblue;
+	background-color: #ccc;
+	float: left;
+	margin: 10px 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .4);
+}
+
+
+/************
+CARD CONTENT
+************/
+
+header {
+	border: 1px dotted lightgrey;
+}
+
+h1 {
+	font-family: 'Dosis';
+	text-align: center;
+	font-size: 30px;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	margin: 0 10px;
+	text-indent: 30px;
+}
+
+.available {
+	background-color: grey;
+	color: yellow;
+	font-size: 20px;
+	padding: 5px 0;
+	padding-left: 10px;
+}
+
+.specs {
+	margin-left: 20px;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+.pricing {
+	margin-left:  20px;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+ul {
+	list-style: none;
+	font-size: 14px;
+	position: relative;
+	bottom: 8px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
